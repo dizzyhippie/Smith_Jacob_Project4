@@ -3,15 +3,21 @@
 	display: none;
 }
 
+h1{
+	text-align: center;
+}
+
 #container{
 	margin: 0 auto;
 	max-width: 1140px;
+	display: block;
 }
 
 .box{
 	height: 250px;
 	padding: 15px;
 	margin: 20px;
+	border-radius: 15px;
 }
 
 .box1{
@@ -24,6 +30,39 @@
 
 .box3, .box4{
 	display: none;
+}
+
+@media screen and (min-width: 640px){
+	#container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		max-width: 1140px;
+	}
+
+	.box{
+		width: 100%;
+	}
+
+	.box3, .box4{
+		display: block;
+	}
+
+	.box1{
+		background-color: #6176FC;
+	}
+
+	.box2{
+		background-color: #9B1AFC;
+	}
+
+	.box3{
+		background-color: #848484;
+	}
+
+	.box4{
+		background-color: #FF4B4B;
+	}
 }
 
 
