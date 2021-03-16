@@ -7,3 +7,23 @@
 	margin: 0 auto;
 	max-width: 1140px;
 }
+
+.box{
+	height: 250px;
+	padding: 15px;
+	margin: 20px;
+}
+
+.box1{
+	background-color: #F8B3EC;
+}
+
+.box2{
+	background-color: #FF4B4B;
+}
+
+.box3, .box4{
+	display: none;
+}
+
+
